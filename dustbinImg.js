@@ -2,8 +2,8 @@ class Dust{
 	constructor(x,y){
 		this.x = x;
 		this.y = y;
-		this.dustbinWidth=200;
-		this.dustbinHeight=200;
+		this.dustbinWidth=230;
+		this.dustbinHeight=230;
 		this.angle = 0;	
 		
 		this.bottomBody=Bodies.rectangle(this.x, this.y, this.dustbinWidth, this.dustbinHeight, {isStatic:true})
